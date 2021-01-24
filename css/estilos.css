@@ -20,7 +20,7 @@ body {
   color: coral;
   font-size: 50px;
   text-align: center;
-  margin-bottom: 60px;
+  margin-bottom: 70px;
 }
 
 /* Header */
@@ -134,5 +134,27 @@ header .principal{
   border: 2px solid white;
   border-radius: 85px;
   padding: 13px 5px 7px 35px
-  
 }
+
+.reali_stud > .titulo{
+  text-align: right;
+}
+
+
+ img.img-estudios_reali{
+  float: left;
+  margin-right: 60px;
+}
+h4.edu{
+  margin-top: 25px;
+  font-size: 30px;
+}
+h4.ins{
+  margin-top: 7px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+}
+
+
+
+
