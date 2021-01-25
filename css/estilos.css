@@ -245,58 +245,33 @@ h4.curtext{
 }
 
 .cards{
-  position: relative;
-  max-width: 420px;
-  padding: 40px 20px;
-  overflow: hidden;
-  margin: 0 auto;
-  display: inline-block;
-}
-.cards .card{
-  border-radius: 5px;
-  float: left;
-  width: 100%;
-  background-color: indianred;
-  float: left;
-  width: 100%;
-  padding: 20px 30px 50px 30px;
-  position: relative;
-  text-align: center;
-}
-.cards .card img{
-  display: inline-block;
-  width: 140px;
-  border-radius: 50%;
-
-}
-.cards .card div{
-  float: left;
-  width: 100%;
-  color: #fff;
-  margin-top: 10px;
-}
-
-/* .cards{
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 .cards .card{
   background: #9c31f3;
   display:flex;
-  width: 350px;
+  width: 45%;
   height: 200px;
-  flex-wrap: wrap;
-  align-content: space-between;
-  margin-left: 50px;
   align-items: center;
   justify-content: space-evenly;
-  margin-left: 50px;
-  margin-right: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 7px 0 rgba(0, 0, 0, .5);
+  margin: 25px;
 }
 .cards .card img{
   width: 100px;
   height: 100px;
-} */
+  object-fit: cover;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  display: block;
+}
+.cards .card > .contenido-texto-card{
+  width: 60%;
+  color: #fff;
+}
 
 
 
