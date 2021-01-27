@@ -66,7 +66,6 @@ header .principal {
   display: flex;
   height: 500px;
   width: 80%;
-  /* align-items: center; */
   flex-direction: column;
   margin-top: 50px;
   margin-left: 50px;
@@ -138,7 +137,7 @@ header .principal {
   bottom: 0;
   width: 100%;
 }
-
+/* about us */
 .about > img {
   width: 300px;
   height: 300px;
@@ -147,7 +146,6 @@ header .principal {
   position: relative;
   z-index: 1;
 }
-
 .about > .cont-texto {
   display: flex;
   flex-direction: column;
@@ -156,7 +154,6 @@ header .principal {
   font-size: 25px;
   margin-bottom: 50px;
 }
-
 .cont-texto > a {
   height: 100%;
   display: flex;
@@ -231,7 +228,7 @@ header .principal {
     opacity: 0;
   }
 }
-
+/* estudios realizados */
 .reali_stud > .titulo {
   text-align: right;
 }
@@ -256,7 +253,7 @@ img.img-estudios_reali {
   font-family: "Raleway", sans-serif;
   font-size: 20px;
 }
-
+/* habilidades adquiridas */
 .Habili_ad > .titulo {
   text-align: left;
 }
@@ -271,7 +268,7 @@ h4.habtext {
   font-family: "Raleway", sans-serif;
   font-size: 20px;
 }
-
+/* trabajo */
 .Mi_work > .titulo {
   text-align: right;
 }
@@ -286,7 +283,7 @@ h4.worktext {
   font-family: "Raleway", sans-serif;
   font-size: 20px;
 }
-
+/* cursos */
 .Mi_curso > .titulo {
   text-align: left;
 }
@@ -305,7 +302,7 @@ h4.curtext {
   font-family: "Raleway", sans-serif;
   font-size: 20px;
 }
-
+/* proyectos */
 .proyectos {
   background: #f2f2f2;
 }
@@ -347,7 +344,7 @@ h4.curtext {
 .imagen-port:hover .hover-galeria {
   transform: scale(1);
 }
-
+/* que dicen acerca de mi */
 .cards {
   display: flex;
   justify-content: space-evenly;
@@ -385,10 +382,10 @@ h4.curtext {
   margin-top: 5px;
   margin-bottom: 10px;
 }
+/* contactame */
 footer {
   background: linear-gradient(to right, hsla(41, 98%, 58%, 0.836), hsla(181, 70%, 45%, 0.836));
   position: relative;
-  /* margin: 100px 0 25px 0; */
   font-size: 30px;
   text-align: center;
   letter-spacing: 7px;
@@ -453,18 +450,15 @@ footer > h2{
   color: #cbc6c1;
 }
 
-
 footer > #form {
   position: relative;
   width: 100%;
 }
-
 .topBefore > input {
   font-size: 0.875em;
   width: 85%;
   height: 50px;
   padding: 0px 15px 0px 15px;
-  /* margin-bottom: 10px; */
   margin-top: 10px;
   background: transparent;
   outline: none;
@@ -476,12 +470,10 @@ footer > #form {
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
 }
-
 .topBefore > input:hover {
   background: #b3aca7;
   color: #e2dedb;
 }
-
 .topBefore > textarea {
   width: 85%;
   height: 110px;
@@ -500,12 +492,10 @@ footer > #form {
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
 }
-
 .topBefore > textarea:hover {
   background: #b3aca7;
   color: #e2dedb;
 }
-
 .topBefore > #submit {
   width: 85%;
   padding: 0;
@@ -517,7 +507,6 @@ footer > #form {
   border: solid 2px #fff;
   border-radius: 5px;
 }
-
 .topBefore > #submit:hover {
   color: #e2dedb;
 }
